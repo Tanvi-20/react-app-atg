@@ -1,0 +1,159 @@
+.card-columns{
+    position:absolute;
+left: 200px;
+top: 628px;
+
+}
+
+.card{
+    width: 692px;
+/*height: 472px;*/
+border-radius: 4px 4px 0px 0px;
+border: 1px solid #E0E0E0;
+margin-bottom: 16px;
+}
+
+.p-title{
+    width: 550px;
+    padding-top: 20px;
+    font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.55%;
+}
+
+.d3{
+    position: absolute;
+left: 648.67px;
+right: 24.67px;
+/*top: 280px;*/
+padding-top: 5px;
+}
+
+.d31{
+    position: absolute;
+    left: 648.67px;
+    right: 24.67px;
+    top: 280px;
+}
+
+.d32{
+    position: absolute;
+left: 648.67px;
+right: 24.67px;
+/*top: 280px;*/
+padding-top: 5px;
+}
+
+.p-txt{
+    font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 134.17%;
+color: #5C5C5C;
+padding-bottom: 40px;
+
+}
+
+.eye{
+    position: absolute;
+left: 510px;
+bottom: 10px;
+color:#525252;
+margin-top: 150px;
+}
+
+.share{
+    margin-left: 27px;
+}
+
+.profile{
+    position: absolute;
+    left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    bottom:10px;
+}
+
+.date{
+    margin-left: 100px;
+}
+
+.btn3{
+    width: 100%;
+    border-radius: 10px;
+    border: 0.7px solid #A9AEB8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    color: #E56135;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn3:hover{
+    background-color: #E56135 ;
+    border: 0.7px solid #A9AEB8;
+}
+
+.btn4{
+    width: 100%;
+    border-radius: 10px;
+    border: 0.7px solid #A9AEB8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    color: #02B875;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn4:hover{
+    background-color: #E56135 ;
+    border: 0.7px solid #A9AEB8;
+}
+
+
+@media only screen and (max-width: 600px){
+    .card-columns{
+        left: 0px;
+top: 326px;
+    }
+    .card{
+        width: 100%;
+    }
+    .p-title{
+        width: 370px;
+        font-size: 22px;
+        line-height: 21px;
+    }
+
+    .p-txt{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .d31{
+        top:200px;
+        left:450px;
+    }
+
+    .d3{
+        top:200px;
+        left:450px;
+    }
+    .d32{
+        top:50px;
+        left:450px;
+    }
+
+    .eye{
+        display: none;
+    }
+
+    
+}
